@@ -1,73 +1,378 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <title>Gosukiwi.github.io by gosukiwi</title>
-  </head>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Federico Ramirez - Portfolio</title>
+        <meta name="description" content="Federico Ramirez portfolio, freelance web developer from Argentina">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <body>
-    <div id="container">
-      <div class="inner">
+        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
-        <header>
-          <h1>Gosukiwi.github.io</h1>
-          <h2>Portfolio</h2>
-        </header>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
 
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/gosukiwi" id="view-on-github" class="button"><span>View on GitHub</span></a>
-        </section>
+        <div id="title">
+            Portfolio
+        </div>
 
-        <hr>
-
-        <section id="main_content">
-          <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-        </section>
-
-        <footer>
-          This page was generated by <a href="http://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
-
+        <div id="picture">
+            <img alt="federico" src="img/pic.png" />
+        </div>
         
-      </div>
-    </div>
-  </body>
+        <div id="pointer-bottom" class="pointer triangle-bottom"></div>
+
+        <div class="container-fluid">
+            <div id="header" class="row">
+                <div id="name" class="col-sm-6 col-md-6">
+                    <h1>Federico</h1>
+                </div>
+
+                <div id="surname" class="col-sm-6 col-md-6">
+                    <h1>Ramirez</h1>
+                </div>
+            </div>
+
+            <div id="menu" class="row">
+                <div class="col-md-12">
+                    <ul>
+                        <li><a id="link-work" href="#section-work">Work</a></li>
+                        <li><a id="link-about" href="#section-about">About</a></li>
+                        <li><a id="link-contact" href="#section-contact">Contact</a></li>
+                        <li><a id="link-lang" href="">Español</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div id="developer" class="row">
+                <h1>Web Developer</h1>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row" id="latest-works">
+                <div class="col-md-12">
+                    <h1 id="section-work"><span class="first-word">Latest</span> Works</h1>
+                </div>
+            </div>
+
+            <div class="row work">
+                <div class="image col-md-4">
+                    <img src="img/works/barbero-inmobiliaria.jpg" height="300" />
+                    <a target="_blank" href="http://barberoinmobiliaria.com.ar/"><img height="300" class="hover" src="img/work-img-hover.png" /></a>
+                </div>
+                <div class="description col-md-8">
+                    <h2>Barbero Inmobiliaria</h2>
+                    <h3>Full website creation for Barbero Inmobiliaria</h3>
+                    <p class="technologies">Technologies</p>
+                    <p>
+                        <span class="label label-info">WordPress</span> 
+                        <span class="label label-info">MySQL</span> 
+                        <span class="label label-info">PHP</span>
+                    </p>
+                    <p class="preview">
+                        <a href="http://ccisbb.com.ar/contactos/" target="_blank">Preview</a>
+                    </p>
+
+                    <div class="text">
+                        <p>Barbero Inmobiliaria is a real state agency in Bahia Blanca, the website
+                        enables the webite administrator to easily create, update and delete properties.</p>
+
+                        <p>Properties have categories which can later be displayed in the frontend,
+                        they also include a custom image gallery and a dead easy to use
+                        google maps plugin.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row work">
+                <div class="image col-md-4">
+                    <img src="img/works/cms-dotnet.jpg" height="300" />
+                    <a target="_blank" href="http://www.bingobahia.com/ContentManager/registrarse.aspx"><img height="300" class="hover" src="img/work-img-hover.png" /></a>
+                </div>
+                <div class="description col-md-8">
+                    <h2>Content Manager System</h2>
+                    <h3>Custom CMS based on .NET and Web Services</h3>
+                    <p class="technologies">Technologies</p>
+                    <p>
+                        <span class="label label-info">C#</span> 
+                        <span class="label label-info">.NET</span> 
+                        <span class="label label-info">Javascript</span>
+                    </p>
+                    <p class="preview">
+                        <a href="http://www.bingobahia.com/ContentManager/registrarse.aspx" target="_blank">Preview</a>
+                        (private system)
+                    </p>
+
+                    <div class="text">
+                        <p>A Content Management System developed at Paradigma, it's composed of a backend which
+                        runs ASP.NET with a custom ORM (TinyORM), it includes content
+                        creation, image galleries, files management, user management and newsletter.
+                        The backend exposes a JSON API though a web service, the frontend consumes this service
+                        to draw the page as needed.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row work">
+                <div class="image col-md-4">
+                    <img src="img/programming.jpg" height="300" />
+                    <a target="_blank" href="http://www.ccisbb.com.ar/acreditaciones/"><img height="300" class="hover" src="img/work-img-hover.png" /></a>
+                </div>
+                <div class="description col-md-8">
+                    <h2>Fisa Backend</h2>
+                    <h3>The backend to manage FISA</h3>
+                    <p class="technologies">Technologies</p>
+                    <p>
+                        <span class="label label-info">CodeIgniter</span> 
+                        <span class="label label-info">MySQL</span> 
+                        <span class="label label-info">PHP</span>
+                        <span class="label label-info">Javascript</span>
+                    </p>
+                    <p class="preview">
+                        <a href="http://www.ccisbb.com.ar/acreditaciones/" target="_blank">Preview</a>
+                        (private system)
+                    </p>
+
+                    <div class="text">
+                        <p>Fisa is the largest expo of Argentina's southern region,
+                        it's purpose is to strengthen the links between all 
+                        different actors of the production indudstry, commerce,
+                        study centers, and such.</p>
+                        <p>The backend system was designed to easily allow
+                        adminsitrators to manage all the expo's stands,
+                        and also provide the stand owner a web-interface to
+                        manage and register her employees, reducing burocracy.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row work">
+                <div class="image col-md-4">
+                    <img src="img/programming.jpg" height="300" />
+                    <a target="_blank" href="http://ccisbb.com.ar/contactos/"><img height="300" class="hover" src="img/work-img-hover.png" /></a>
+                </div>
+                <div class="description col-md-8">
+                    <h2>CCIS Contacts Agenda</h2>
+                    <h3>Backend to manage lists of contacts for CCIS</h3>
+                    <p class="technologies">Technologies</p>
+                    <p>
+                        <span class="label label-info">CodeIgniter</span> 
+                        <span class="label label-info">MySQL</span> 
+                        <span class="label label-info">PHP</span>
+                        <span class="label label-info">Javascript</span>
+                    </p>
+                    <p class="preview">
+                        <a href="http://ccisbb.com.ar/contactos/" target="_blank">Preview</a>
+                        (private system)
+                    </p>
+
+                    <div class="text">
+                        <p>Bahia Blanca's Corporation of Commerce, Industry and Services, founded in 1919, is focused
+                        on helping small businesses with the final goal of improving the community's overall socioeconomic wealth.</p>
+
+                        <p>The system was designed to allow users to easily manage contacts, storing personal
+                        information and easily look for it, with several customized filters.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="projects" class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1><span class="first-word">Personal</span> Projects</h1>
+                </div>
+            </div>
+
+            <div class="row project">
+                <div class="name col-md-3">
+                    <p><a href="https://github.com/gosukiwi/Blueberry" target="_blank">Blueberry</a></p>
+                </div>
+                <div class="description col-md-9">
+                    <p>Blueberry is a programming language with a Ruby-like syntax 
+                    which compiles to PHP, it was created using Node and 
+                    Javascript. It's mostly an experimental project far from
+                    beeing a stable language.</p>
+                </div>
+            </div>
+
+            <div class="row project">
+                <div class="name col-md-3">
+                    <p><a href="http://codecanyon.net/item/ultra-db/6780661" target="_blank">Ultra DB</a></p>
+                </div>
+                <div class="description col-md-9">
+                    <p>Ultra DB is a flat-files PHP database designed to be fast, easy to use and
+                    install. It's safe and relies heavily on caching for maximum performance.</p>
+                </div>
+            </div>
+
+            <div class="row project">
+                <div class="name col-md-3">
+                    <p><a href="https://github.com/gosukiwi/studiowp-google-maps" target="_blank">StudioWP Google Maps</a></p>
+                </div>
+                <div class="description col-md-9">
+                    <p>StudioWP Google Maps is a WordPress plugin which enables
+                    the user to easily add a google map anywhere in the post,
+                    just by specifying the address, no extra configuration
+                    needed.</p>
+                </div>
+            </div>
+            
+            <div class="row project">
+                <div class="name col-md-3">
+                    <p><a href="https://github.com/gosukiwi/alerter" target="_blank">Alerter</a></p>
+                </div>
+                <div class="description col-md-9">
+                    <p>Alerter is a simple and non-obstrusive implementation
+                    of alerts in Javascript, because it was written in 
+                    "vanilla javascript" it has no dependencies, and
+                    it's really easy to use and customize.</p>
+                </div>
+            </div>
+
+            <div class="row project">
+                <div class="name col-md-3">
+                    <p><a href="https://github.com/gosukiwi/datetimepicker" target="_blank">DateTime Picker</a></p>
+                </div>
+                <div class="description col-md-9">
+                    <p>A jQuery UI plugin, which enables the final user to easily select a date as well as a time, easy to
+                    include to any existing project. It was created as surpisingly enough solutions back then where either not
+                    good enough, or an overkill.</p>
+                </div>
+            </div>
+
+            <div class="row project">
+                <div class="name col-md-3">
+                    <p><a href="https://bitbucket.org/gosukiwi/tinyorm" target="_blank">TinyORM</a></p>
+                </div>
+                <div class="description col-md-9">
+                    <p>TinyORM is a simplistic ORM for C#, it can run on any database
+                    connection, as it's basically a wrapping of <em>IDbConnection</em>, it's
+                    only one file, and super easy to integrate to any project.</p>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="container" id="about">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 id="section-about"><span class="first-word">About</span> me</h1>
+
+                    <ul>
+                        <li><span>Location</span> Argentina</li>
+                        <li><span>Birth date</span> 28 feb 1990</li>
+                        <li><span>Languages</span> English, Spanish</li>
+                        <li><span>Technologies</span> PHP MySQL .NET Javascript SASS HTML 5 Node MV* Frameworks</li>
+                        <li>Senior .NET programmer, Senior web developer</li>
+                    </ul>
+
+                    <div class="text">
+                        <p>Web developer from Argentina with a special love for
+                        open source, good practices, beautiful designs and cats.</p>
+
+                        <p>I've been playing around with web technologies since
+                        I was 15, back when PHP was a hype and nobody really knew
+                        how to make a maintainable project. Making beautiful functional
+                        websites is what I love, for that reason I'm always interested
+                        in the latest design and UX principles.</p>
+
+                        <p>As the web itself evolved so did I, when the web MVC
+                        movement started with Rails, I experienced many PHP 
+                        frameworks such as CodeIgniter and Symfony, I also tried
+                        several technologies such as the .NET framework, Rails and 
+                        lately Node.</p>
+
+                        <p>As Javascript gained popuparity I decided to dig deeper
+                        into that language, finding out I really enjoy using it,
+                        especially the functional part of it. I have experience
+                        with jQuery, jQuery UI and MV* frameworks such as Google's
+                        Angular.</p>
+
+                        <p>At 2012 I stopped freelancing and spent one year working full 
+                        time at <a href="http://paradigma.com.ar/">Paradigma</a>,
+                        where I was in charge of the web development department. 
+                        In Paradigma I worked with .NET, including classic ASP.NET
+                        and ASP.NET MVC and SQL Server.</p>
+
+                        <p>Right now I'm studying, and open to freelance work,
+                        offering the whole package for the modern web needs, be it 
+                        design work, programmer work, or both.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" id="contact">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 id="section-contact"><span class="first-word">Contact</span> me</h1>
+
+                    <p>The fastest and easiest way to contact me is just 
+                    emailing me, you can, nevertheless, contact me though
+                    any of the following ways.</p>
+
+                    <ul>
+                        <li>Email: <a href="mailto:fedra.arg@gmail.com">fedra.arg@gmail.com</a></li>
+                        <li>Blog: <a href="http://gosukiwi.github.io/blog/">http://gosukiwi.github.io/blog/</a></li>
+                        <li>LinkedIn: <a target="_blank" href="http://ar.linkedin.com/pub/federico-ramirez/9/287/a74">Federico Ramirez</a></li>
+                        <li>Github: <a target="_blank" href="https://github.com/gosukiwi">/gosukiwi</a></li>
+                        <li>StackOverflow: <a target="_blank" href="http://stackoverflow.com/users/1015566/gosu-kiwi">/gosukiwi</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div id="footer-menu" class="container-fluid">
+            <div class="row-fluid">
+                <div class="col-md-8">
+                    <ul>
+                        <li><a href="#">Work</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Español</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4" id="footer-options">
+                    <a id="to-top" href="#"><div class="triangle-bottom"></div></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer" class="container-fluid">
+            <div class="row-fluid">
+                <div class="col-md-12">
+                    Copyright Federico Ramirez 2014 - All Rights Reserved
+                </div>
+            </div>
+        </div>
+
+
+        <script src="js/vendor/jquery-1.10.2.min.js"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/main.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <!--<script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>-->
+    </body>
 </html>
