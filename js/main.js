@@ -37,13 +37,13 @@
 
     // smooth scroll
     $('div#menu a').click(function (e) {
-        var tag = $(this).attr('href').split('#')[1],
-            el = $('#' + tag);
-        
-        if(el.attr('href').indexOf('#') === -1) {
+        if($(this).attr('href').indexOf('#') === -1) {
             return;
         }
 
+        var tag = $(this).attr('href').split('#')[1],
+            el = $('#' + tag);
+        
         e.preventDefault();
 
         if(el.length) {
