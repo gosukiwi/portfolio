@@ -57,6 +57,7 @@
   display: inline-block;
   font-size: 3em;
   font-weight: normal;
+  text-transform: capitalize;
 }
 #content .statement {
   width: 80%;
