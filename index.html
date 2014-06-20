@@ -1,18 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="A set of small, responsive CSS modules that you can use in every web project.">
     <title>Federico Ramirez :: Portfolio</title>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 1024px)" href="css/style-mobile.css">
   </head>
   <body>
     <div id="header" class="pure-g">
-      <div class="pure-u-1-2">
+      <div class="pure-u-1 pure-u-lg-1-2">
           <h1><span>{</span> Federico Ramirez <span>}</span></h1>
       </div>
-      <div class="pure-u-1-2">
+      <div class="pure-u-1 pure-u-lg-1-2">
         <ul>
           <li><a href="#work">Work</a></li>
           <li><a href="#about">About</a></li>
@@ -45,7 +47,7 @@
 
         <div class="work">
           <div class="thumb">
-            <img src="img/studiowp.jpg" alt="">
+            <img class="pure-img" src="img/studiowp.jpg" alt="">
           </div>
           <h2><a target="_blank" href="http://studiowp.net">Studio WP</a></h2>
           <p>Full website for StudioWP, my personal studio. Includes design,
@@ -55,7 +57,7 @@
 
         <div class="work">
           <div class="thumb">
-            <img src="img/apipu.jpg" alt="">
+            <img class="pure-img" src="img/apipu.jpg" alt="">
           </div>
           <h2>Apipu</h2>
           <p>Design and development for Apipu, a website pretty similar to Yelp,
@@ -65,7 +67,7 @@
 
         <div class="work">
           <div class="thumb">
-            <img src="img/barbero.jpg" alt="">
+            <img class="pure-img" src="img/barbero.jpg" alt="">
           </div>
           <h2><a target="_blank" href="http://barberoinmobiliaria.com.ar/">Barbero Inmobiliaria</a></h2>
           <p>Website for Barbero's estate agency, it's solution is based on
@@ -152,16 +154,6 @@
 
     <script src="http://use.edgefonts.net/antic-slab.js"></script>
     <script>
-      var cb = function() {
-        var l = document.createElement('link'); l.rel = 'stylesheet';
-        l.href = 'http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css';
-        var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
-      };
-      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-          webkitRequestAnimationFrame || msRequestAnimationFrame;
-      if (raf) raf(cb);
-      else window.addEventListener('load', cb);
-
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
