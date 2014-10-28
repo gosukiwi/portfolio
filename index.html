@@ -1,159 +1,172 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Portfolio of Federico Ramirez, full stack web developer from Argentina">
-    <title>Federico Ramirez :: Portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Federico Ramirez</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <style>@media only screen and (max-width:1024px){#header,#header ul{text-align:center}#content .work{width:100%!important;margin:0!important}#content .work h2{display:block!important;width:280px;margin:auto!important;padding:20px 0 5px!important;box-sizing:border-box;transition:width .25s}#content .work h2:hover{width:290px}}</style>
-  </head>
-  <body>
-    <div id="header" class="pure-g">
-      <div class="pure-u-1 pure-u-lg-1-2">
-          <h1><span>{</span> Federico Ramirez <span>}</span></h1>
-      </div>
-      <div class="pure-u-1 pure-u-lg-1-2">
-        <ul>
-          <li><a href="#work">Work</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a href="http://gosukiwi.svbtle.com" target="_blank">Blog</a></li>
-          <!-- <li><a href="#">Español</a></li> -->
-        </ul>
-      </div>
-    </div>
+        <link rel="stylesheet" href="//cdn.rawgit.com/gosukiwi/thin/master/css/thin.min.css">
+        <link rel="stylesheet" href="css/style.css">
 
-    <div class="pure-g">
-      <div class="pure-u-1">
-        <div id="subtitle">
-          <h1>Hello, I'm Federico Ramirez, a full stack web developer from 
-            Argentina</h1>
-        </div>
-      </div>
-    </div>
+        <script async src="//use.edgefonts.net/source-sans-pro:n2,n4,n9.js"></script>
 
-    <div id="content" class="pure-g">
-      <div class="pure-u-1">
+        <!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+        <![endif]-->
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
 
-        <div class="statement">
-          "Freelancing is what I love, and I focus all my effort in delivering
-          the best possible solution for each client, please feel free to take
-          a look at my work and contact me, I'd love to hear from you!" &ndash; Federico
-        </div>
+        <div class="container">
+          <div class="row">
+            <div class="twelve columns header">
+              <img src="img/federico.jpg" alt="">
+              <h1>Federico Ramírez</h1>
+              <p>Full stack web developer, gamer and cat lover from Argentina</p>
+              <ul>
+                <li>PHP</li>
+                <li>WordPress</li>
+                <li>JavaScript</li>
+                <li>MVC</li>
+                <li>Symfony</li>
+                <li>Backbone</li>
+                <li>Knockout.js</li>
+                <li>Linux</li>
+                <li>Nginx</li>
+                <li>MySQL</li>
+              </ul>
 
-        <div class="title"><h1 id="work">Latest Works</h1></div>
-
-        <div class="work">
-          <div class="thumb">
-            <img class="pure-img" src="img/studiowp.jpg" alt="">
+              <div class="availability"><div class="green lantern"></div> Available for freelance
+              work</div>
+            </div>
           </div>
-          <h2><a target="_blank" href="http://studiowp.net">Studio WP</a></h2>
-          <p>Full website for StudioWP, my personal studio. Includes design,
-          setting up a server from scratch using Nginx + HHVM + MariaDB + 
-          Ubuntu and WordPress installation &amp; configuration.</p>
-        </div>
 
-        <div class="work">
-          <div class="thumb">
-            <img class="pure-img" src="img/apipu.jpg" alt="">
+          <div class="row">
+            <div class="eight columns offset-by-two article">
+              <img src="img/github.png" alt="">
+              <h2>Open Source Projects</h2>
+
+              <div class="project">
+                <span class="title">Thin</span> is a minimal CSS framework for
+                the modern web, it's simple, responsive and doesn't get in your
+                way.
+
+                <a class="button" target="_blank"
+                  href="https://github.com/gosukiwi/thin">See Repository</a>
+              </div>
+
+              <div class="project">
+                <span class="title">Frontend Boilerplate</span> is an
+                opinionated boilerplate to quickly generate frontend projects
+                using Gulp, LESS and Thin. It has a pre-configured gulpfile
+                which compresses images, compiless less, sanitizes and prefixes
+                CSS and minifies Javascript.
+
+                <a class="button" target="_blank"
+                  href="https://github.com/gosukiwi/frontend-boilerplate">See
+                Repository</a>
+              </div>
+
+              <div class="project">
+                <span class="title">Katar</span> is a simplistic template engine
+                for PHP, developed as an exercise to work on a Rescursive
+                Descent Parser. It's functional and quite fast, it even has a
+                Silex service provider.
+
+                <a class="button" target="_blank"
+                  href="https://github.com/gosukiwi/katar">See Repository</a>
+              </div>
+
+              <div class="project">
+                <span class="title">Blueberry</span> is a toy programming
+                language inspired by CoffeeScript and created using a PEG. It
+                resembles Ruby's syntax and compiles to PHP.
+
+                <a class="button" target="_blank"
+                  href="https://github.com/gosukiwi/Blueberry">See Repository</a>
+              </div>
+
+              <div class="project">
+                <span class="title">backbone-modal</span> enables you to display
+                a BackBone view in a modal fashion. Quick and easy with no
+                external dependencies.
+
+                <a class="button" target="_blank"
+                  href="https://github.com/gosukiwi/backbone-modalview">See
+                Repository</a>
+              </div>
+
+            </div>
           </div>
-          <h2>Apipu</h2>
-          <p>Design and development for Apipu, a website pretty similar to Yelp,
-          it's development is based on Symfony2.</p>
-        </div>
 
+          <div class="row">
+            <div class="eight columns offset-by-two article">
+              <img src="img/codecanyon.png" alt="">
+              <h2>CodeCanyon Items</h2>
 
-        <div class="work">
-          <div class="thumb">
-            <img class="pure-img" src="img/barbero.jpg" alt="">
+              <div class="project">
+                <span class="title">jQuery Rating</span> is a plugin which turns
+                a regular HTML input into a beautiful rating widget. It
+                integrates nicely with HTML 5 validation.
+
+                <a class="button" target="_blank"
+                  href="http://codecanyon.net/item/jquery-rating-plugin/7775151">See
+                on CodeCanyon</a>
+              </div>
+
+              <div class="project">
+                <span class="title">Metro DateTime Picker</span> is a Metro
+                inspired widget which enables the user to select a date and time
+                in a Windows Metro fashion. It's highly customizable and has no
+                hard dependencies.
+
+                <a class="button" target="_blank"
+                  href="http://codecanyon.net/item/metro-datetime-picker/6908980">See
+                on CodeCanyon</a>
+              </div>
+
+              <div class="project">
+                <span class="title">Ultra DB</span> is a flat-files database
+                designed to work in very limited environments. It can be an
+                alternative to SQLite, or it can serve as a cache layer. It's
+                fast and has a rich and simple querying API.
+
+                <a class="button" target="_blank"
+                  href="http://codecanyon.net/item/ultra-db/6780661">See
+                on CodeCanyon</a>
+              </div>
+
+            </div>
           </div>
-          <h2><a target="_blank" href="http://barberoinmobiliaria.com.ar/">Barbero Inmobiliaria</a></h2>
-          <p>Website for Barbero's estate agency, it's solution is based on
-          WordPress, hosted on their servers.</p>
         </div>
 
-        <div class="title"><h1>Open Source Projects</h1></div>
-
-        <div class="description">I love contributing to open source projects as well as working
-        on personal projects whenever I have free time. Below are some of my
-        favourite Open Source projects I have created.</div>
-
-        <div class="project">
-          <h1>Katar</h1>
-          <h2><a target="_blank" href="https://github.com/gosukiwi/katar">github.com/gosukiwi/katar</a></h2>
-          <p>Katar is a PHP template engine designed to be simple and easy to 
-          use and extend, it consist of only three files, a tokenizer, a parser
-          and a code-generation class. It's <strong>fast</strong>, and 
-          aggressively uses cache.</p>
-        </div>
-
-        <div class="project">
-          <h1>Blueberry</h1>
-          <h2><a target="_blank" href="https://github.com/gosukiwi/Blueberry">github.com/gosukiwi/Blueberry</a></h2>
-          <p>Toy programming language with Ruby-like syntax which compiles
-          to PHP. It was created as an exercie for learning more on creation
-          of programming languages.</p>
-        </div>
+        <hr>
         
-        <div class="project">
-          <h1>StudioWP Google Maps for WordPress</h1>
-          <h2><a target="_blank" href="https://github.com/gosukiwi/studiowp-google-maps">github.com/gosukiwi/studiowp-google-maps</a></h2>
-          <p>A WordPress plugin which enables the end-user to easily embed
-          Google Maps inside posts using a simple shortcode.</p>
+        <div class="container">
+          <div class="row">
+            <div class="eight columns offset-by-two contact">
+              <h3>Federico Ramírez</h3>
+              <ul>
+                <li><span class="title">Email</span> <a
+                  href="mailto:fedra.arg@gmail.com">fedra.arg@gmail.com</a></li>
+                <li><span class="title">Blog</span> <a
+                  href="http://gosukiwi.svbtle.com/" target="_blank">http://gosukiwi.svbtle.com/</a></li>
+                <li><span class="title">Twitter</span> <a
+                  href="https://twitter.com/gosukiwi" target="_blank">@gosukiwi</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
 
-        <div class="info">
-          <p>Aside from Open Source projects I have a bunch of useful reusable
-          widgets I sell on <a href="http://codecanyon.net/user/gosukiwi/portfolio">CodeCanyon</a>.</p>
-        </div>
-
-        <div class="title"><h1 id="about">About Me</h1></div>
-
-        <div id="about-me">
-          <ul>
-            <li><span>Location</span> Argentina</li>
-            <li><span>Birth date</span> Feb 28 1990</li>
-            <li><span>Languages</span> English, Spanish</li>
-            <li><span>Technologies</span> Linux, PHP, MySQL, WordPress, .NET, 
-              Javascript, LESS/SASS, Node, Gulp/Grunt, jQuery, MV* Frameworks
-              (Symfony2, CodeIgniter, ASP.NET MVC, Backbone, CanJS), Git</li>
-          </ul>
-
-          <p>I'm a full-stack web developer from Argentina with a passion for 
-          Open Source, good practices and beautiful, clean designs. I've been 
-          creating websites for more than 5 years, my favourite languages are
-          Javascript and PHP but I have experience with .NET aswell. </p>
-        </div>
-
-        <div class="title"><h1 id="contact">Let's talk</h1></div>
-
-        <div id="contact">
-          <ul>
-            <li><span><i class="fa fa-envelope"></i> Email</span> <a href="mailto:fedra.arg@gmail.com">fedra.arg@gmail.com</a></li>
-            <li><span><i class="fa fa-pencil-square-o"></i> Blog</span> <a target="_blank" href="http://gosukiwi.svbtle.com/">Svbtle</a></li>
-            <li><span><i class="fa fa-twitter"></i> Twitter</span> <a target="_blank" href="http://twitter.com/gosukiwi">/gosukiwi</a></li>
-            <li><span><i class="fa fa-github"></i> GitHub</span> <a target="_blank" href="https://github.com/gosukiwi">/gosukiwi</a></li>
-            <li><span><i class="fa fa-code"></i> CodeCanyon</span> <a target="_blank" href="http://codecanyon.net/user/gosukiwi">/gosukiwi</a></li>
-            <li><span><i class="fa fa-stack-overflow"></i> StackOverflow</span> <a target="_blank" href="http://stackoverflow.com/users/1015566/gosu-kiwi">/gosu-kiwi</a></li>
-          </ul>
-
-          <p>The preferred contact form is <strong>email</strong>, nevertheless
-          you can use any of the websites above. If you'd like to 
-          <strong>start a project</strong> you can use 
-          <a target="_blank" href="http://studiowp.net/contact/">StudioWP's project builder</a> form.</p>
-        </div>
-
-      </div>
-    </div>
-
-    <footer>
-      Copyright Federico Ramirez 2014 - All rights reserved
-    </footer>
-
-    <script async src="http://use.edgefonts.net/antic-slab.js"></script>
-    <script async src="js/main.min.js"></script>
-  </body>
+        <script src="//cdn.jsdelivr.net/jquery/1.11.1/jquery.min.js"></script>
+        <script src="js/main.min.js"></script>
+    </body>
 </html>
-
