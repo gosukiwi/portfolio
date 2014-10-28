@@ -161,3 +161,38 @@ footer
 
     text-align: center;
 }
+@media screen and (max-width: 959px)
+{
+    .article .project
+    {
+        max-width: 620px;
+        margin: 20px auto 60px;
+    }
+}
+@media screen and (max-width: 520px)
+{
+    .article .project .button
+    {
+        display: block;
+
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .article .project:last-child .button
+    {
+        margin-bottom: 0;
+    }
+    hr
+    {
+        margin-top: -10px;
+    }
+}
+@media screen and (max-width: 340px)
+{
+    .contact .title
+    {
+        display: block;
+
+        margin: 10px 0 5px;
+    }
+}
